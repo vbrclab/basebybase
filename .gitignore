@@ -1,0 +1,11 @@
+*.xml
+*.jar
+*.class
+target/
+tempin.bbb
+tempout.bbb
+.settings/
+.project
+*.iml
+.idea/
+.vscode/
