@@ -1,0 +1,54 @@
+Base by Base v3.0 README
+
+i) Directory Structure
+   
+BaseByBase/
+	  |
+	  |
+          +--src	This is the source directory.
+	     +--ca
+	  	+--virology
+	  	   +--baseByBase	the ca.virology.baseByBase package
+        		+--gui          the ca.virology.baseByBase.gui package
+        		+--io           the ca.virology.baseByBase.io package
+       			+--data         the ca.virology.baseByBase.data package
+        		+--util         the ca.virology.baseByBase.util package
+        		+--sql      	the ca.virology.baseByBase.sql package
+BaseByBase/
+	  |
+	  |
+          +--class		This is NOT included in CVS. When 'ant compile' is performed all generated compiled class files are placed here
+          +--api		This is NOT included in CVS. When 'ant doc' is performed all generated Javadoc files are placed here
+          +--doc		This contains all the relevant documentation of the Project.
+          +--resources
+          	+--images	Contains all the images that are required for the BaseByBase Editor
+		+--BBB.jnlp	JNLP file for BaseByBase (uses JWS)
+	  +--jar		All the required Jars are placed in this directory
+	  +--build.xml 		This is the build file for the project
+	  +--README
+
+
+ii) Building the BBB jar file
+
+	* Proceed to the root or base directory of the project
+	* On command line say - ant pack
+	* Provided that the program compiles fine and generates all class files, BaseByBase.jar will appear in BaseByBase/jar/BaseByBase.jar
+
+iii) Compiling BBB
+    
+	* Proceed to the root or base directory of the project
+	* On command line say - ant compile
+	* BaseByBase/class/ directory will appear with compiled files in them
+
+iv) Running BBB
+
+	* Proceed to the root or base directory of the project
+	* Now you can run BaseByBase by just saying 'ant run' at the command line.
+
+
+v) References
+
+	* PMID: 15253776 [PubMed - indexed for MEDLINE]
+	* http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=15253776
+	* http://206.12.59.223/tools/BaseByBase
+
